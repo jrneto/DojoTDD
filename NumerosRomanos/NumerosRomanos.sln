@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumerosRomanos.Domain", "NumerosRomanos.Domain\NumerosRomanos.Domain.csproj", "{E759E102-80A3-427F-97F1-521F61C73CEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumerosRomanos.Test", "NumerosRomanos.Test\NumerosRomanos.Test.csproj", "{5FC116C2-0CEE-48E4-A5B2-3A1BBA8EA544}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TDD", "TDD", "{98E883B5-4A60-4AA1-A844-0EE2D4B4B1A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E759E102-80A3-427F-97F1-521F61C73CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E759E102-80A3-427F-97F1-521F61C73CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E759E102-80A3-427F-97F1-521F61C73CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E759E102-80A3-427F-97F1-521F61C73CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FC116C2-0CEE-48E4-A5B2-3A1BBA8EA544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FC116C2-0CEE-48E4-A5B2-3A1BBA8EA544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FC116C2-0CEE-48E4-A5B2-3A1BBA8EA544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FC116C2-0CEE-48E4-A5B2-3A1BBA8EA544}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E759E102-80A3-427F-97F1-521F61C73CEC} = {98E883B5-4A60-4AA1-A844-0EE2D4B4B1A7}
+		{5FC116C2-0CEE-48E4-A5B2-3A1BBA8EA544} = {98E883B5-4A60-4AA1-A844-0EE2D4B4B1A7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B893645-6573-4FEC-9829-DD22B70F4E36}
+	EndGlobalSection
+EndGlobal
